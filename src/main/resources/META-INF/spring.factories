@@ -1,4 +1,3 @@
-# AutoConfigureDataJpa auto-configuration imports
 com.example.test.autoconfigure.jdbc.DataJdbcTest=\
 org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration,\
 org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,\
