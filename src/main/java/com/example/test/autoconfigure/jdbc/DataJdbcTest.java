@@ -27,6 +27,7 @@ import org.springframework.transaction.annotation.Transactional;
 @TypeExcludeFilters(DataJdbcTypeExcludeFilter.class)
 @Transactional
 @AutoConfigureCache
+@AutoconfigureDataJdbc
 @AutoConfigureTestDatabase
 @ImportAutoConfiguration
 public @interface DataJdbcTest {
